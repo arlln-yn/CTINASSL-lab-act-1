@@ -15,10 +15,13 @@ const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
 
+const corsOrigin = process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : [];
+
+// Apply CORS middleware
 app.use(
     cors({
-        origin: 'https://ctinassl-smiski-showcase.onrender.com', // Allow requests only from your frontend domain
-        credentials: true, 
+        origin: corsOrigin, 
+        credentials: true,
     })
 );
 
