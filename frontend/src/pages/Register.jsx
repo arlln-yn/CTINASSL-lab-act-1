@@ -56,7 +56,7 @@ const Register = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5000/register', { name, email, password });
+            const response = await axios.post('/register', { name, email, password });
 
             if (response.data.error) {
                 toast({
