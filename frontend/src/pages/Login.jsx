@@ -119,7 +119,7 @@ const Login = () => {
                 <VStack spacing={6} align="flex-start" w="full">
                     <VStack spacing={2} align={['flex-start', 'center']} w="full">
                         <Heading fontSize="3xl" color="#3E9121">Login</Heading>
-                        <Text color="gray.500">Welcome back! Please login to your account.</Text>
+                        <Text color="gray.500">Welcome back!! Please login to your account.</Text>
                     </VStack>
                 </VStack>
 
