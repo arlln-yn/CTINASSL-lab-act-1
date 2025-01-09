@@ -1,15 +1,9 @@
 import express from 'express';
 import { registerUser, loginUser, getProfile } from '../controllers/authController.js';
-import cors from 'cors';
+
 
 const router = express.Router();
 
-router.use(
-    cors({
-        credentials: true,
-        origin: 'http://localhost:5000'
-    })
-)
 
 
 router.post('/register', registerUser);
