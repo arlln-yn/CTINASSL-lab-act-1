@@ -17,7 +17,7 @@ const __dirname = path.resolve();
 
 app.use(
     cors({
-        origin: 'https://ctinassl-smiski-showcase.onrender.com', // Allow requests only from your frontend domain
+        origin: 'http://localhost:5173', // Allow requests only from your frontend domain
         credentials: true, 
     })
 );
