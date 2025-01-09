@@ -51,7 +51,7 @@ const Login = () => {
         }
 
         try {
-            const response = await axios.post('/login', { email, password });
+            const response = await axios.post('http://localhost:5000/login', { email, password });
             if (response.data.error) {
                 toast({
                     title: 'Error',
