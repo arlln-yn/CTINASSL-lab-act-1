@@ -27,9 +27,9 @@ const SeriesPreviewPage = () => {
         maxW="100%"
         bg="#71CB2E"
         p={12}
-        h="10vh"
+        h="8vh"
         position="absolute"
-        top="10vh"
+        top="8vh"
         left={0}
         zIndex={1}
         display="flex"
