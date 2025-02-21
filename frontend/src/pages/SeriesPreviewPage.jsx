@@ -26,10 +26,10 @@ const SeriesPreviewPage = () => {
       <Container
         maxW="100%"
         bg="#71CB2E"
-        p={12}
+        p={8}
         h="8vh"
         position="absolute"
-        top="11vh"
+        top="8vh"
         left={0}
         zIndex={1}
         display="flex"
