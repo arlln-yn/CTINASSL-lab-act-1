@@ -106,7 +106,7 @@ const Series1 = () => {
           p={12}
           h="8vh"
           position="absolute"
-          top="11vh"
+          top="9vh"
           left={0}
           zIndex={1}
           display="flex"
