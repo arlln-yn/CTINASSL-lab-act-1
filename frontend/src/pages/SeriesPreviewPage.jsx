@@ -26,8 +26,8 @@ const SeriesPreviewPage = () => {
       <Container
         maxW="100%"
         bg="#71CB2E"
-        p={8}
-        h="8vh"
+        p={12}
+        h="10vh"
         position="absolute"
         top="8vh"
         left={0}
