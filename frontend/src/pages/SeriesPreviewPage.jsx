@@ -29,7 +29,7 @@ const SeriesPreviewPage = () => {
         p={12}
         h="8vh"
         position="absolute"
-        top="8vh"
+        top="9vh"
         left={0}
         zIndex={1}
         display="flex"
